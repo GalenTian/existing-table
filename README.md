@@ -1,6 +1,9 @@
 # existing-table
 One javascript table component with frozen columns and headers.
 
+## Demo
+You can visit <https://roctive.github.io/existing-table/examples/index.html> to see features of existing-table.
+
 ## Browser Supported
 Until now, existing-table supports these browsers:
 
@@ -9,4 +12,4 @@ Until now, existing-table supports these browsers:
 - Firefox*
 - Edge
 
-> I don't mention the versions of Chrome & Firefox because I don't have previous versions of Chrome and Firefox. But theoretically, this table would work well on latest versions of browsers.
+> I don't mention the versions of Chrome & Firefox because I don't have previous versions of Chrome and Firefox. But theoretically, this table would work well on recent versions.
