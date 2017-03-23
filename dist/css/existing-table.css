@@ -1,0 +1,25 @@
+/*!
+ * Existing-table v0.1.0 (https://roctive.github.io/existing-table/)
+ * Copyright 2017 Galen Tian.
+ * Licensed under the MIT license
+ */
+.table-container {
+  position: relative;
+}
+.table-container .table {
+  margin: 0;
+}
+.table-container > .origin-table-container {
+  overflow: auto;
+}
+.table-container > .head-table-container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+  overflow: hidden;
+}
+.table-fixed {
+  table-layout: fixed;
+}
