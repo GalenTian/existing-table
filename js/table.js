@@ -77,7 +77,7 @@
             if (_options.frozenColumnsCount > 0) {
                 var _wrapper = $($.format('<div class="{0}"></div>', COLUMN_TABLE_CONTAINER_CLASS));
 
-
+                // TODO:
 
                 _self._initColumnHeadTable();
             }
@@ -87,6 +87,8 @@
                 _$el = _self.element;
 
             var _wrapper = $($.format('<div class="{0}"></div>', COLUMN_HEAD_TABLE_CONTAINER_CLASS));
+
+            // TODO: 
         },
         _updateContainer: function (headHeight) {
             var _self = this;
@@ -113,7 +115,16 @@
             _self._$headTableContainer.outerWidth(_self._$originTableContainer[0].clientWidth);
         },
         _destroy: function () {
+            var _self = this;
 
+            // Remove events
+            _self._$originTableContainer.off(_eventNamespace);
+            $(window).off(_eventNamespace);
+
+            // Remove extended elements
+            _self._$originTable.appendTo(_self.element);
+            _self._$headTableContainer.remove();
+            _self._$originTableContainer.remove();
         },
 
         updateLayout: function () {
