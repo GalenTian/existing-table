@@ -7,7 +7,7 @@ One javascript table component with frozen columns and headers.
 - jQuery UI
 
 ## Demo
-You can visit <https://roctive.github.io/existing-table/examples/index.html> to see features of existing-table.
+You can visit <https://galentian.github.io/existing-table/examples/index.html> to see features of existing-table.
 
 ## Browser Supported
 Until now, existing-table supports these browsers (tested browsers):
